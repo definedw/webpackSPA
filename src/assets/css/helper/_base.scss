@@ -1,0 +1,7 @@
+@mixin border ($c:#ccc) {
+    border: solid $c 1px;
+}
+
+.test {
+    @include border;
+}
